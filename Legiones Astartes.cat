@@ -1139,22 +1139,6 @@
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Turret" id="236e-42d8-e1d9-1077" hidden="false">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Predator cannon" hidden="false" id="d05d-94c7-c548-51d8">
-                      <profiles>
-                        <profile name="Predator cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="fa5f-b865-1132-e290">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">18&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Light AT" id="7b40-e366-3ce4-b8ac" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
-                      </infoLinks>
-                    </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Predator lascannon" hidden="false" id="c285-7ddb-882b-b043">
                       <profiles>
                         <profile name="Predator lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="761d-5045-2ada-bbc4">
@@ -1177,6 +1161,9 @@
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a80-d0c0-1035-c58f" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb8f-cc7b-ca35-81ce" includeChildSelections="false"/>
                   </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Predator cannon" hidden="false" id="7eba-c3ff-b114-66e5" type="selectionEntry" targetId="8177-4956-e220-443d"/>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntryGroup>
@@ -1290,22 +1277,6 @@
                         <infoLink name="Tracking" id="97ac-a4c7-0201-d2f3" hidden="false" type="rule" targetId="eb09-d940-39cc-16f7"/>
                       </infoLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Omega plasma array" hidden="false" id="10fd-1095-1749-c0fd">
-                      <profiles>
-                        <profile name="Omega plasma array" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="897e-050a-0809-d0ea">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Accurate" id="9c10-8874-b251-2ebb" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
-                      </infoLinks>
-                    </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Punisher rotary cannon" hidden="false" id="e7af-113f-3474-70a5">
                       <profiles>
                         <profile name="Punisher rotary cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e391-87f5-17b7-b6ee">
@@ -1328,6 +1299,9 @@
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8580-2235-661f-cabf" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f1a-5b62-7701-ed31" includeChildSelections="false"/>
                   </constraints>
+                  <entryLinks>
+                    <entryLink import="true" name="Omega plasma array" hidden="false" id="adbe-14e1-5f9f-41f5" type="selectionEntry" targetId="82a3-6a1d-611d-2646"/>
+                  </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <selectionEntries>
@@ -1678,6 +1652,38 @@
         <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
         <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Predator cannon" hidden="false" id="8177-4956-e220-443d" publicationId="eb00-ca64-abe2-a1d4">
+      <profiles>
+        <profile name="Predator cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e3a2-be3a-0ed3-9266" publicationId="eb00-ca64-abe2-a1d4">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">18&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="27cf-484f-f2f5-bf47" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Omega plasma array" hidden="false" id="82a3-6a1d-611d-2646" publicationId="eb00-ca64-abe2-a1d4">
+      <profiles>
+        <profile name="Omega plasma array" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="5a11-3136-8b82-df90" publicationId="eb00-ca64-abe2-a1d4">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">3+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Accurate" id="e0bc-16d7-c811-9c19" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <forceEntries>
@@ -4839,27 +4845,14 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                     <infoLink name="Anti-tank" hidden="false" type="rule" id="2825-5d40-8855-641b" targetId="5656-4a72-5de3-87ce"/>
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Predator cannon" hidden="false" id="5e4a-ea6b-2044-e424">
-                  <profiles>
-                    <profile name="Predator cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="7fc3-baaf-e7b8-f93e">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">18&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Light AT" hidden="false" type="rule" id="4696-6f35-7f8f-e143" targetId="c731-70f4-ffcd-4ff7"/>
-                  </infoLinks>
-                </selectionEntry>
               </selectionEntries>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a73e-a9ea-f2c7-db0e"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55f9-47bb-9100-7fb9"/>
               </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Predator cannon" hidden="false" id="13d2-3071-cb8d-9dd1" type="selectionEntry" targetId="8177-4956-e220-443d"/>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Sponson weapons" hidden="false" id="715c-d6b4-147c-9b5a">
               <selectionEntries>
@@ -5361,22 +5354,6 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2619-620b-ccc2-ccd9"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Omega plasma array" hidden="false" id="93c4-4a7e-cfe3-435">
-                  <profiles>
-                    <profile name="Omega plasma array" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="eda5-867d-bd06-a348">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Accurate" hidden="false" type="rule" id="ef23-6ce4-7909-1591" targetId="dc55-9f84-39e1-1e1e"/>
-                  </infoLinks>
-                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Twin-linked accelerator autocannon" hidden="false" id="9369-d90e-ad26-bbb3">
                   <profiles>
                     <profile name="Twin-linked accelerator autocannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="4099-c59a-2bc9-d6e9">
@@ -5394,6 +5371,9 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
+              <entryLinks>
+                <entryLink import="true" name="Omega plasma array" hidden="false" id="0c54-8c43-db85-2dbd" type="selectionEntry" targetId="82a3-6a1d-611d-2646"/>
+              </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Sponson weapons" hidden="false" id="35b3-4efe-8239-99d0">
               <selectionEntries>
