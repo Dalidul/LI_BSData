@@ -1625,6 +1625,60 @@
         <infoLink name="Master Tactician" id="8a6d-7a98-8e6b-5c84" hidden="false" type="rule" targetId="db05-2ad8-6256-20e9"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Missile Launcher Heavy Support Legionaries" hidden="false" id="cc35-aa7d-2cd9-2a77" collective="true" publicationId="eb00-ca64-abe2-a1d4">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Missile launchers" hidden="false" id="92e8-8307-9c2e-2c6b" collective="true" publicationId="eb00-ca64-abe2-a1d4">
+          <profiles>
+            <profile name="Missile launchers - Frag" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="408f-3d5a-be34-f094" publicationId="eb00-ca64-abe2-a1d4">
+              <characteristics>
+                <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+                <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+                <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+                <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+                <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Ignores Cover, Light</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Missile launchers - Krak" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="9089-9a59-82d9-02e7" publicationId="eb00-ca64-abe2-a1d4">
+              <characteristics>
+                <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+                <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+                <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+                <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+                <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7cc0-34ae-58bd-d057"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="651a-7605-a64c-1024"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Light" id="180d-86d7-c7f4-b5c6" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+            <infoLink name="Ignores Cover" id="b9a1-6c34-758e-0f29" hidden="false" type="rule" targetId="bff7-b88a-2145-2c63"/>
+            <infoLink name="Anti-tank" id="754e-912f-b5ec-6708" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Heavy Support Legionaries" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="6b31-4dad-8291-042f">
+          <characteristics>
+            <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">5+</characteristic>
+            <characteristic name="CAF" typeId="b9d2-6ffb-17a1-757f">+1</characteristic>
+            <characteristic name="Morale" typeId="8485-4ee2-6feb-d93c">3+</characteristic>
+            <characteristic name="W" typeId="b00f-3f1c-eb63-461a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Infantry (1)" hidden="false" id="4af5-f12e-1a45-8363" targetId="68c1-de55-26b1-8ca4" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
+        <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
+        <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <forceEntries>
     <forceEntry name="Legion Demi-Company" hidden="false" id="6cda-5812-cf52-3fee">
@@ -4196,81 +4250,14 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
         </modifier>
       </modifiers>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Legion Missile Launcher Support Detachment" hidden="false" id="3b49-8984-4980-b530">
+    <selectionEntry type="unit" import="true" name="Legion Missile Launcher Support Detachment" hidden="false" id="3b49-8984-4980-b530" publicationId="eb00-ca64-abe2-a1d4">
       <categoryLinks>
         <categoryLink targetId="be19-7658-5258-71d9" id="f110-2a53-bc3a-f6b9" primary="true" name="Support"/>
         <categoryLink targetId="7d0c-e5ec-a086-98a4" id="1e54-b572-a6fd-14b9" primary="false" name="Legiones Astartes"/>
         <categoryLink targetId="68c1-de55-26b1-8ca4" id="e7bb-d94f-db6e-f8eb" primary="false" name="Infantry (1)"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="2 Support Legionaries" hidden="false" id="22c4-4695-b815-3030">
-          <selectionEntries>
-            <selectionEntry type="model" import="true" name="Support Legionaries" hidden="false" id="82c5-1b52-63f-c1ad" collective="true">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Missile launchers" hidden="false" id="5638-3d27-3108-aa05" collective="true">
-                  <profiles>
-                    <profile name="Missile launchers - Frag" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8f68-ec0a-a041-c500">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">20&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Ignores Cover, Light</characteristic>
-                      </characteristics>
-                    </profile>
-                    <profile name="Missile launchers - Krak" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8a0a-eaee-bc72-80a9">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">20&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="dcc8-62d4-b21-41af"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="59f2-7523-f640-71b4"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink name="Light" hidden="false" type="rule" id="a998-a8cd-cabc-e7c0" targetId="4f6f-3184-9172-ef3f"/>
-                    <infoLink name="Ignores Cover" hidden="false" type="rule" id="3cf6-d462-8392-9438" targetId="bff7-b88a-2145-2c63"/>
-                    <infoLink name="Anti-tank" hidden="false" type="rule" id="1e62-ef0d-63ed-a39a" targetId="5656-4a72-5de3-87ce"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <profiles>
-                <profile name="Support Legionaries" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="c37a-b4b6-13b1-e492">
-                  <characteristics>
-                    <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">5&quot;</characteristic>
-                    <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">5+</characteristic>
-                    <characteristic name="CAF" typeId="b9d2-6ffb-17a1-757f">+1</characteristic>
-                    <characteristic name="Morale" typeId="8485-4ee2-6feb-d93c">3+</characteristic>
-                    <characteristic name="W" typeId="b00f-3f1c-eb63-461a">1</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <constraints>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="1d1d-f0bb-daca-a89a"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="428f-86f-5e09-c2c2"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink targetId="68c1-de55-26b1-8ca4" id="6f02-7ae-2c46-b451" primary="false" name="Infantry (1)"/>
-              </categoryLinks>
-              <modifiers>
-                <modifier type="set" value="-1" field="54cb-1324-71d0-d324">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="3b49-8984-4980-b530" childId="db83-9a3-2bea-ae7e" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <costs>
-                <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
-                <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
-                <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="2 Missile Launcher Heavy Support Legionaries" hidden="false" id="22c4-4695-b815-3030">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="dbdd-3134-2b89-56d8"/>
             <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="8fed-a026-a263-d6f9"/>
@@ -4278,6 +4265,21 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
           <costs>
             <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="15"/>
           </costs>
+          <entryLinks>
+            <entryLink import="true" name="Missile Launcher Heavy Support Legionaries" hidden="false" id="ce5e-08cb-53a4-3361" type="selectionEntry" targetId="cc35-aa7d-2cd9-2a77">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="d50d-a79b-309a-e588"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="996d-678f-a8ab-fca7"/>
+              </constraints>
+              <modifiers>
+                <modifier type="set" value="-1" field="54cb-1324-71d0-d324">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="3b49-8984-4980-b530" childId="db83-9a3-2bea-ae7e" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -5551,7 +5553,7 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
         </entryLink>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Legion Tactical Detachment" hidden="false" id="e552-7189-ccb5-1922">
+    <selectionEntry type="unit" import="true" name="Legion Tactical Detachment" hidden="false" id="e552-7189-ccb5-1922" publicationId="eb00-ca64-abe2-a1d4">
       <categoryLinks>
         <categoryLink targetId="446a-abe3-63c3-5709" id="77b3-c548-ee54-8570" primary="true" name="Core"/>
         <categoryLink targetId="7d0c-e5ec-a086-98a4" id="940e-819-28d7-522e" primary="false" name="Legiones Astartes"/>
@@ -5568,59 +5570,17 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
               <constraints>
                 <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="77cb-4c67-e959-7a5e"/>
               </constraints>
-              <selectionEntries>
-                <selectionEntry type="model" import="true" name="Missile Launcher Heavy Support Legionaries" hidden="false" id="dab7-42f9-222c-d625" collective="true">
+              <costs>
+                <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="15"/>
+                <cost name="‏‏‎Transport Usage" typeId="54cb-1324-71d0-d324" value="0"/>
+                <cost name="Break Point" typeId="5312-855-beda-23c1" value="0"/>
+              </costs>
+              <entryLinks>
+                <entryLink import="true" name="Missile Launcher Heavy Support Legionaries" hidden="false" id="bd6b-90f2-f848-9dc7" type="selectionEntry" targetId="cc35-aa7d-2cd9-2a77">
                   <constraints>
                     <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="7af2-5195-3ded-8bd5"/>
                     <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="b43-fcd8-5e3c-ffd9"/>
                   </constraints>
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Missile launchers" hidden="false" id="6fcb-97b8-bf18-76f5" collective="true">
-                      <profiles>
-                        <profile name="Missile launchers - Frag" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="fd22-f2c3-9c32-4b39">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">20&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Ignores Cover, Light</characteristic>
-                          </characteristics>
-                        </profile>
-                        <profile name="Missile launchers - Krak" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="90d2-589c-f657-87ae">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">20&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <constraints>
-                        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81c0-5a9b-2b6a-a802"/>
-                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47fb-63b7-cf47-443e"/>
-                      </constraints>
-                      <infoLinks>
-                        <infoLink name="Light" hidden="false" type="rule" id="6715-bacb-e329-95c9" targetId="4f6f-3184-9172-ef3f"/>
-                        <infoLink name="Ignores Cover" hidden="false" type="rule" id="5e3a-e379-447-f135" targetId="bff7-b88a-2145-2c63"/>
-                        <infoLink name="Anti-tank" hidden="false" type="rule" id="b6f8-f237-5219-6690" targetId="5656-4a72-5de3-87ce"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <profiles>
-                    <profile name="Tactical Legionaries" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="3cb1-1edc-5efe-dbb5">
-                      <characteristics>
-                        <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">5&quot;</characteristic>
-                        <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">5+</characteristic>
-                        <characteristic name="CAF" typeId="b9d2-6ffb-17a1-757f">+2</characteristic>
-                        <characteristic name="Morale" typeId="8485-4ee2-6feb-d93c">3+</characteristic>
-                        <characteristic name="W" typeId="b00f-3f1c-eb63-461a">1</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <categoryLinks>
-                    <categoryLink targetId="68c1-de55-26b1-8ca4" id="f9ef-2200-2b4-8fb" primary="false" name="Infantry (1)"/>
-                  </categoryLinks>
                   <modifiers>
                     <modifier type="set" value="-1" field="54cb-1324-71d0-d324">
                       <conditions>
@@ -5628,18 +5588,8 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                       </conditions>
                     </modifier>
                   </modifiers>
-                  <costs>
-                    <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
-                    <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
-                    <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-              <costs>
-                <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="15"/>
-                <cost name="‏‏‎Transport Usage" typeId="54cb-1324-71d0-d324" value="0"/>
-                <cost name="Break Point" typeId="5312-855-beda-23c1" value="0"/>
-              </costs>
+                </entryLink>
+              </entryLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="2 Plasma Tactical Support Legionaries" hidden="false" id="1b6d-62ae-b64f-1034">
               <constraints>
@@ -5674,7 +5624,7 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                     </selectionEntry>
                   </selectionEntries>
                   <profiles>
-                    <profile name="Tactical Legionaries" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="b0c3-6c6e-2ddd-a887">
+                    <profile name="Plasma Support Legionaries" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="b0c3-6c6e-2ddd-a887">
                       <characteristics>
                         <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">5&quot;</characteristic>
                         <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">5+</characteristic>
@@ -6955,9 +6905,7 @@ A Detachment chosen to be affected by Mutable Tactics gains a special rule depen
 1) If a selected Detachment is made up of Infantry, all models within it gain either the Infiltrate. 
 2) If a selected Detachment is made up of Cavalry, all models within it gain either the Outflank .
 3) If a selected Detachment is made up of Walker or Vehicles, all models within it gain either the Forward Deployment.
-4) If the selected Detachment is of another type, it gains the Forward Deployment rule.
-
-</characteristic>
+4) If the selected Detachment is of another type, it gains the Forward Deployment rule.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7114,11 +7062,7 @@ Knights, Titans and models with a Morale characteristic of &quot;-&quot; are una
 
 1) Kine Shields: Thousand Sons models with the Commander special rule gain the Shield Generator (4”, 5+) special rule.
 2) Smite: A models with the Commander special rule gains a weapon with a profile:
-8” 1 4+ -1, Psi
-
-
-
-</characteristic>
+8” 1 4+ -1, Psi</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
