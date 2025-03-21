@@ -78,7 +78,7 @@
           </profiles>
           <infoLinks>
             <infoLink name="Anti-tank" hidden="false" type="rule" id="6e43-ad0f-138c-b3ee" targetId="5656-4a72-5de3-87ce"/>
-            <infoLink name="Demolisher" hidden="false" type="rule" id="ece-e3f4-1da8-d624" targetId="788-9d12-3358-b236"/>
+            <infoLink name="Demolisher (X)" hidden="false" type="rule" id="ece-e3f4-1da8-d624" targetId="788-9d12-3358-b236"/>
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
@@ -659,9 +659,9 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Shield Generator (X)" hidden="false" id="693e-2091-70d7-f286" type="rule" targetId="20d1-2027-5605-3f28">
+        <infoLink name="Shield Generator (X&quot;, Y)" hidden="false" id="693e-2091-70d7-f286" type="rule" targetId="20d1-2027-5605-3f28">
           <modifiers>
-            <modifier type="set" value="Shield Generator (5+)" field="name"/>
+            <modifier type="set" value="Shield Generator (6&quot;, 5+)" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Drop Pod" hidden="false" id="f9d6-fb06-7235-883f" type="rule" targetId="39d-d61c-ebfe-15d9"/>
@@ -2163,7 +2163,7 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
               </profiles>
               <infoLinks>
                 <infoLink name="Anti-tank" hidden="false" type="rule" id="6a43-5981-5342-b12d" targetId="5656-4a72-5de3-87ce"/>
-                <infoLink name="Demolisher" hidden="false" type="rule" id="29c4-1b7f-9156-572c" targetId="788-9d12-3358-b236"/>
+                <infoLink name="Demolisher (X)" hidden="false" type="rule" id="29c4-1b7f-9156-572c" targetId="788-9d12-3358-b236"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -5011,7 +5011,7 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                   </profiles>
                   <infoLinks>
                     <infoLink name="Light AT" hidden="false" type="rule" id="e587-8919-8d20-1d8a" targetId="c731-70f4-ffcd-4ff7"/>
-                    <infoLink name="Demolisher" hidden="false" type="rule" id="a95e-fda0-6d30-906" targetId="788-9d12-3358-b236"/>
+                    <infoLink name="Demolisher (X)" hidden="false" type="rule" id="a95e-fda0-6d30-906" targetId="788-9d12-3358-b236"/>
                     <infoLink name="Barrage" hidden="false" type="rule" id="3310-dc7a-632e-52d7" targetId="862d-b036-2018-dbaf"/>
                   </infoLinks>
                 </selectionEntry>
@@ -7097,7 +7097,7 @@ Knights, Titans and models with a Morale characteristic of &quot;-&quot; are una
               <profiles>
                 <profile name="Kine Shields" typeId="fe63-c171-b59c-9d89" typeName="Special Rules" hidden="false" id="5390-5696-25f4-64ea">
                   <characteristics>
-                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">Thousand Sons models with the Commander special rule gain the Shield Generator (6+) special rule.</characteristic>
+                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">Thousand Sons models with the Commander special rule gain the Shield Generator (6&quot;, 6+) special rule.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

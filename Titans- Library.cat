@@ -98,11 +98,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Ion Shield (X)" id="c41f-19df-4ab2-d24b" hidden="false" targetId="3016-c284-15c3-6753" type="rule">
-          <modifiers>
-            <modifier type="set" value="Ion Shield (5+)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Ion Shield" id="c41f-19df-4ab2-d24b" hidden="false" targetId="3016-c284-15c3-6753" type="rule"/>
         <infoLink name="Nimble" id="83cd-e9f4-0c9c-a76c" hidden="false" targetId="bc40-962f-5fc5-771a" type="rule"/>
         <infoLink name="Ionic Flare Shield" id="7f43-b689-b6ae-65b7" hidden="false" targetId="91cb-858e-5961-1931" type="rule"/>
       </infoLinks>
@@ -297,7 +293,7 @@
             <modifier type="set" value="Engine Killer (4)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Demolisher" id="03f1-1eb6-1db6-ba41" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+        <infoLink name="Demolisher (X)" id="03f1-1eb6-1db6-ba41" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
         <infoLink name="Anti-tank" id="bde8-f03b-2ec3-0833" hidden="false" targetId="5656-4a72-5de3-87ce" type="rule"/>
       </infoLinks>
       <costs>
@@ -502,7 +498,7 @@
                         </infoLink>
                         <infoLink name="Anti-tank" id="37a1-378b-3624-fdd5" hidden="false" targetId="5656-4a72-5de3-87ce" type="rule"/>
                         <infoLink name="Accurate" id="3ad4-5fc7-339c-3936" hidden="false" targetId="dc55-9f84-39e1-1e1e" type="rule"/>
-                        <infoLink name="Demolisher" id="67ad-6759-c36d-3be9" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                        <infoLink name="Demolisher (X)" id="67ad-6759-c36d-3be9" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
                         <infoLink name="Engine Killer (X)" id="5b87-b8a5-57c5-794e" hidden="false" targetId="7e4c-2264-79e3-9054" type="rule">
                           <modifiers>
                             <modifier type="set" value="Engine Killer (2)" field="name"/>
@@ -615,12 +611,12 @@
                             <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
                             <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
                             <characteristic name="AP" typeId="3932-ca12-de16-c1b7">SP</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Impale</characteristic>
+                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Impale (2)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Impale" id="1967-2772-d11e-4be1" hidden="false" targetId="1574-c823-a61e-4253" type="rule"/>
+                        <infoLink name="Impale (X)" id="1967-2772-d11e-4be1" hidden="false" targetId="1574-c823-a61e-4253" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -703,7 +699,7 @@
                           </modifiers>
                         </infoLink>
                         <infoLink name="Graviton Pulse" id="c1ad-f832-69cb-e3b0" hidden="false" targetId="5c36-e0d9-ba67-8110" type="rule"/>
-                        <infoLink name="Demolisher" id="bfaf-6901-f411-81cc" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                        <infoLink name="Demolisher (X)" id="bfaf-6901-f411-81cc" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -749,7 +745,7 @@
                             <modifier type="set" value="Arc (Front)" field="name"/>
                           </modifiers>
                         </infoLink>
-                        <infoLink name="Demolisher" id="32e5-550b-6921-4fb8" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                        <infoLink name="Demolisher (X)" id="32e5-550b-6921-4fb8" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -924,7 +920,7 @@
                     <modifier type="set" value="Arc (Front)" field="name"/>
                   </modifiers>
                 </infoLink>
-                <infoLink name="Demolisher" id="995f-c04f-a1f1-b204" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                <infoLink name="Demolisher (X)" id="995f-c04f-a1f1-b204" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
                 <infoLink name="Accurate" id="9c08-bc16-b55d-75af" hidden="false" targetId="dc55-9f84-39e1-1e1e" type="rule"/>
               </infoLinks>
               <costs>
@@ -1106,7 +1102,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Demolisher" id="df34-0972-ef43-cea7" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                <infoLink name="Demolisher (X)" id="df34-0972-ef43-cea7" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
               </infoLinks>
               <costs>
                 <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -1246,7 +1242,7 @@
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Demolisher" id="f41e-c9ec-2f8c-632d" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                <infoLink name="Demolisher (X)" id="f41e-c9ec-2f8c-632d" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
                 <infoLink name="Graviton Pulse" id="cf91-671a-5b67-8a6c" hidden="false" targetId="5c36-e0d9-ba67-8110" type="rule"/>
               </infoLinks>
               <costs>
@@ -1660,7 +1656,7 @@
                 <modifier type="set" value="Arc (Front)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Demolisher" id="c3d4-282d-72bd-f41c" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+            <infoLink name="Demolisher (X)" id="c3d4-282d-72bd-f41c" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -1833,7 +1829,7 @@
                 </infoLink>
                 <infoLink name="Rend" id="2502-78a9-5295-5709" hidden="false" targetId="6d1b-9fcd-3541-f46e" type="rule"/>
                 <infoLink name="Ignores Cover" id="3dcb-c60c-92b5-3988" hidden="false" targetId="bff7-b88a-2145-2c63" type="rule"/>
-                <infoLink name="Demolisher" id="9611-b648-55a0-f942" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                <infoLink name="Demolisher (X)" id="9611-b648-55a0-f942" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
                 <infoLink name="Quake" id="9392-524c-e585-f183" hidden="false" targetId="1090-d918-d47e-1317" type="rule"/>
               </infoLinks>
               <costs>
@@ -1977,7 +1973,7 @@
                 <modifier type="set" value="Arc (Front)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Demolisher" id="8e8f-3510-8fd8-721e" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+            <infoLink name="Demolisher (X)" id="8e8f-3510-8fd8-721e" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
             <infoLink name="Graviton Pulse" id="4639-caba-c50c-291f" hidden="false" targetId="5c36-e0d9-ba67-8110" type="rule"/>
           </infoLinks>
           <costs>
@@ -2024,7 +2020,7 @@
                 <modifier type="set" value="Arc (Front)" field="name"/>
               </modifiers>
             </infoLink>
-            <infoLink name="Demolisher" id="57cd-4848-12a8-34e2" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+            <infoLink name="Demolisher (X)" id="57cd-4848-12a8-34e2" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -2407,7 +2403,7 @@
               </modifiers>
             </infoLink>
             <infoLink name="Anti-tank" id="5f3f-b23e-96ad-719f" hidden="false" targetId="5656-4a72-5de3-87ce" type="rule"/>
-            <infoLink name="Demolisher" id="917f-2056-f5f1-5f81" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+            <infoLink name="Demolisher (X)" id="917f-2056-f5f1-5f81" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="‏‏‎‏‏‎ ‎points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
