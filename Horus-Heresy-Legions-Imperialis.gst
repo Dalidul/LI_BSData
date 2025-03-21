@@ -8,6 +8,7 @@
     <publication name="The Devastation of Tallarn" id="e4cc-404e-be5e-2101" hidden="false" shortName="DOT" publicationDate="2024" publisherUrl="https://www.warhammer.com/en-GB/shop/legions-imperialis-devastation-of-tallarn-2024-eng"/>
     <publication name="Rise of the Dark Mechanicum" id="89ae-8b6d-da44-733f" hidden="false" shortName="RDM" publicationDate="2024"/>
     <publication name="Bonded Cybernetica Support Formations" id="3a86-b962-115c-2239" hidden="false" publisherUrl="https://assets.warhammer-community.com/legions_imperialis_expandedcyberneticaformations_eng_07-mdsmqowyoy-tu5prvasqe.pdf" shortName="BC" publicationDate="2024"/>
+    <publication name="Dalidul home rules pack" id="eb00-ca64-abe2-a1d4" hidden="false" shortName="DHRP" publicationDate="2025" publisherUrl="https://docs.google.com/document/d/1ggc8vEw-2YyQd8lUMHsF6_Sc0s65UEsBycuTttglETc/edit?usp=sharing"/>
   </publications>
   <costTypes>
     <costType id="ee95-a20e-f9ff-e2c2" name="‏‏‎‏points" defaultCostLimit="3000" hidden="false"/>
@@ -293,8 +294,12 @@ A weapon with the Bombing Run trait can damage Structures.</description>
 
 These additional Hits can only be allocated to models within the target Detachment that are within range and line of sight of at least one firing model. Any Wounds caused by these additional Hits cannot generate more Hits themselves.</description>
     </rule>
-    <rule id="788-9d12-3358-b236" name="Demolisher" publicationId="c1b8-2180-635c-14cd" hidden="false" page="80">
-      <description>A weapon with the Demolisher trait can damage Structures.</description>
+    <rule id="788-9d12-3358-b236" name="Demolisher (X)" publicationId="eb00-ca64-abe2-a1d4" hidden="false">
+      <description>A weapon with the Demolisher trait can damage Structures. 
+
+When a Structure suffers a Wound caused by a weapon with the Demolisher (X) trait, they suffer a number of additional Wounds equal to the number shown in brackets. No Save rolls of any kind can be made against these additional Wounds. 
+
+If the value in brackets is absent, treat it as 0.</description>
     </rule>
     <rule id="7d44-6682-5990-8ccf" name="Firestorm" publicationId="c1b8-2180-635c-14cd" hidden="false" page="80">
       <description>When firing a weapon with the Firestorm trait, place the Flame template (denoted as T in the weapon profile&apos;s range) so the narrow end is touching the weapon, or the firing model if the weapon is not physically represented. Make Hit rolls for each Detachment that has one of more models that are under the Flame template equal to the number of models from that Detachment that are at least 50% under the Flame template. Roll a D6 for each model that is less than 50% covered by the template - on a 5+, the model is counted for the purpose of calculating Hit rolls and allocating Hits. On a 1-3, the model is ignored for such purposes. If a weapon has the Firestorm trait and the Skyfire trait, the template only hits models with the Flyer special rule, while if it does not have the Skyfire trait then Flyers are ignored and cannot be hit.
@@ -321,12 +326,14 @@ Weapons with the Heavy Beam trait can damage Structures - any Structure the line
     <rule id="bff7-b88a-2145-2c63" name="Ignores Cover" publicationId="c1b8-2180-635c-14cd" hidden="false" page="81">
       <description>When firing a weapon with the Ignores Cover trait, a model suffers no penalties to its Hit rolls for targeting a Detachment within an area of terrain. In addition, Hits scored bypass Cover Saves.</description>
     </rule>
-    <rule id="1574-c823-a61e-4253" name="Impale" publicationId="c1b8-2180-635c-14cd" hidden="false" page="82">
-      <description>If a weapon with the Impale trait scores a Hit against a Detachment of Scale 3 or more, the firing player determines which model in the Detachment the Hit is allocated to, following all other normal rules for allocating Hits. Hits scored by a weapon with the Impale trait bypass Void Shields.
+    <rule id="1574-c823-a61e-4253" name="Impale (X)" publicationId="eb00-ca64-abe2-a1d4" hidden="false">
+      <description>If a weapon with the Impale trait scores a Hit against a Detachment of Scale 3 or more, the firing player nominates which model in the Detachment the Hit is allocated to, following all other normal rules for allocating Hits. Hits scored by a weapon with the Impale trait bypass Void Shields. 
 
-In addition, instead of making a Save roll, both players instead roll a D6 and add the Scale of their model to the result. A model with 3 or more Wounds remaining adds an additional 1 to the result; a model with 5 or more Wounds remaining adds 2 to the result instead.
 
-If the result of the firing player&apos;s roll is higher than the target player&apos;s, the target model suffers a number of Wounds equal to the difference in results. No Save rolls of any kind can be made against these Wounds.</description>
+In addition, instead of making a Save roll, both players instead roll a D6 and add the Scale of their model to the result. A model with 3 or more Wounds remaining adds an additional 1 to the result, a model with 5 or more Wounds remaining adds 2 to the result instead. The firing player adds X to the result, in addition. If the value in brackets is absent, treat it as 0. 
+
+
+If the result of the firing player’s roll is higher than the target player’s, the target model suffers a number of Wounds equal to the difference in results. No Save rolls of any kind can be made against these Wounds.</description>
     </rule>
     <rule id="769e-4f43-51b0-537f" name="Limited (X)" publicationId="c1b8-2180-635c-14cd" hidden="false" page="82">
       <description>Some weapons can only carry a limited amount of ammunition into battle or are difficult to resupply on the move. A weapon with the Limited trait can only be fired a number of times equal to the number shown in brackets; each time the weapon is fired, decrease that number by 1. When the number reaches 0, the weapon cannot be fired again for the remainder of the battle.</description>
@@ -485,13 +492,19 @@ Models with the Independent and Deep Strike special rules may start the game in 
     <rule id="c5cb-479b-fa6b-d376" name="Interceptor" publicationId="c1b8-2180-635c-14cd" hidden="false" page="92">
       <description>After a model with the Interceptor rule has finished moving, it may immediately fire a single weapon of the controlling player&apos;s choice that does not have the Point Defence trait. A model firing this way may only target Flyer models and suffers a -2 to all Hit rolls when doing so. An Interceptor model that fires in this way may still fire as normal during the Combat phase, including with the weapon it fired as part of the Interceptor special rule, but may not also fire as part of an Overwatch.</description>
     </rule>
-    <rule id="3016-c284-15c3-6753" name="Ion Shield (X)" publicationId="c1b8-2180-635c-14cd" hidden="false" page="92">
-      <description>A model with the Ion Shield special rule gains an additional Save characteristic equal to the number shown in brackets, referred to as an Ion Shield. This Save characteristic can only be used against Hits scored when the firing model is within the Front arc of the model with this special rule.
+    <rule id="3016-c284-15c3-6753" name="Ion Shield" publicationId="eb00-ca64-abe2-a1d4" hidden="false">
+      <description>Models with the Ion Shield Special Rule can re-roll X number of failed armour saves per battle round, where X is equal to the wound characteristic of the model minus 1 (to a minimum of 1).
+If the shooting weapon has the Armourbane trait, both Armourbane and Ion Shield are ignored for these hits.
+This rule is only applicable for Hits scored when the firing model is within the Front arc of the model with this special rule.
 
-Ion Shields are not modified by a weapon&apos;s AP characteristic as normal. Instead, if the AP of the weapon is -1 or worse, the Ion Shield Save characteristic is not modified. If the AP of the weapon that scored the Hit is -2 or -3, reduce the Ion Shield Save characteristic by 1 (to a minimum of 6+). If the AP of the weapon that scored the Hit is -4 of better, reduce the Ion Shield Save characteristic by 2 (to a minimum of 6+).</description>
+
+Example:
+Knight Questoris has 3 wounds and Ion shield special rule.
+It may reroll up to 2 failed armour saves per battle round.</description>
     </rule>
-    <rule id="91cb-858e-5961-1931" name="Ionic Flare Shield" publicationId="c1b8-2180-635c-14cd" hidden="false" page="92">
-      <description>Models with the Ionic Flare Shield special rule improve the Save characteristic of their Ion Shields and/or Invulnerable Save by 1 against Hits scored by a weapon with the Barrage or Blast trait, to a maximum of 2+ (e.g., an Ion Shield (4+) would become an Ion Shield (3+)).</description>
+    <rule id="91cb-858e-5961-1931" name="Ionic Flare Shield" publicationId="eb00-ca64-abe2-a1d4" hidden="false">
+      <description>Models with the Ionic Flare Special Rule reduce the AP of attacks coming from weapons with the Barrage or Blast Trait by 1 to a minimum of 0.
+This rule is only applicable for Hits scored when the firing model is within the Front arc of the model with this special rule.</description>
     </rule>
     <rule id="130c-4ba7-dab7-34b3" name="Jump Packs" publicationId="c1b8-2180-635c-14cd" hidden="false" page="93">
       <description>Models with the Jump Packs special rule can move over all other models and areas of terrain, suffering no movement penalties for doing so, such as due to Difficult terrain or moving over an Obstacle. Models with the Jump Packs special rule cannot end their movement overlapping other models, nor can they end their movement within an enemy model&apos;s Engagement Zone unless they are issued with a Charge Order. They can move over Impassable terrain but cannot end their movement overlapping it - any model that ends their movement overlapping an area of Impassable terrain is destroyed.
@@ -534,8 +547,11 @@ When a Detachment with the Outflank special rule that is in Reserve is activated
     <rule id="45cc-2c29-f0e6-19aa" name="Phosphex" publicationId="c1b8-2180-635c-14cd" hidden="false" page="95">
       <description>Models Engaged with an enemy Detachment with the Phosphex special rule gain no positive modifiers to the CAF characteristic for being Garrison within a Structure.</description>
     </rule>
-    <rule id="20d1-2027-5605-3f28" name="Shield Generator (X)" publicationId="c1b8-2180-635c-14cd" hidden="false" page="95">
-      <description>Any model, friend or foe, including the model with this special rule, within 6&quot; of a model with the Shield Generator (X) special rule, gains an Invulnerable Save equal to the number shown in brackets. This Save can only be made against Hits scored by models more than 6&quot; from the Shield Generator model, i.e., if they firing model and the target are both benefitting from a Save given by the same model with this special rule then the target cannot use that Save.</description>
+    <rule id="20d1-2027-5605-3f28" name="Shield Generator (X&quot;, Y)" publicationId="eb00-ca64-abe2-a1d4" hidden="false">
+      <description>Any model, friend or foe, including the model with this special rule, wholly within Y&quot; of a model with the Shield Generator special rule, gains an X+ Invulnerable Save. 
+
+
+This Save can only be made against Hits scored by models more than Y” from the Shield Generator model, i.e., if the firing model and the target are both benefitting from a Save given by the same model with this special rule then the target cannot use that Save.</description>
     </rule>
     <rule id="ea1-6996-9b3e-1dc1" name="Scout" publicationId="c1b8-2180-635c-14cd" hidden="false" page="95">
       <description>Models with the Scout special rule improve any Cover Save they have by 1, to a maximum of 2+.</description>
