@@ -6946,11 +6946,18 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Alpha Legion" hidden="false" id="9968-4d06-50ea-fedd">
               <profiles>
-                <profile name="Mutable Tactics" typeId="fe63-c171-b59c-9d89" typeName="Special Rules" hidden="false" id="a3fd-4b0b-9eaa-e4f2">
+                <profile name="Mutable Tactics" typeId="fe63-c171-b59c-9d89" typeName="Special Rules" hidden="false" id="a3fd-4b0b-9eaa-e4f2" publicationId="eb00-ca64-abe2-a1d4">
                   <characteristics>
-                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">For each Formation in an Army made up entirely of Alpha Legion Detachments (ignoring Allied Contingents) the controlling player may select up to 3 Alpha Legion Detachments in the Army to be affected by Mutable Tactics. For each Allied Contingent in an Army made up entirely of Alpha Legion Detachments, the controlling player may select up to 1 Alpha Legion Detachment to be affected by Mutable Tactics. Detachments with the Flyer special rule cannot be chosen.
+                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">Mutable Tactics: For each Formation in an Army made up entirely of Alpha Legion Detachments (ignoring Allied Contingents) the controlling player may select up to 3 Alpha Legion Detachments in the Army to be affected by Mutable Tactics. For each Allied Contingent in an Army made up entirely of Alpha Legion Detachments, the controlling player may select up to 1 Alpha Legion Detachment to be affected by Mutable Tactics. Detachments with the Flyer special rule cannot be chosen. 
 
-A Detachment chosen to be affected by Mutable Tactics gains a special rule dependent on the Detachment Type. If a selected Detachment is made up of Infantry, Cavalry, Walker or Vehicle models, all models within it gain either the Infiltrate, Outflank or Forward Deployment special rule - this is chosen by the controlling player and different Detachments can choose different rules. If the selected Detachment is of another type, it gains the Forward Deployment rule.</characteristic>
+
+A Detachment chosen to be affected by Mutable Tactics gains a special rule dependent on the Detachment Type:
+1) If a selected Detachment is made up of Infantry, all models within it gain either the Infiltrate. 
+2) If a selected Detachment is made up of Cavalry, all models within it gain either the Outflank .
+3) If a selected Detachment is made up of Walker or Vehicles, all models within it gain either the Forward Deployment.
+4) If the selected Detachment is of another type, it gains the Forward Deployment rule.
+
+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -7091,13 +7098,27 @@ Knights, Titans and models with a Morale characteristic of &quot;-&quot; are una
                     <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">Enemy Detachments with the Infiltrate special rule cannot be deployed within 16&quot; of a Space Wolves model. In addition, an enemy model with the Outflank special rule may not be placed on the battlefield within 8&quot; of any Space Wolves model when arriving from Reserve, unless it is arriving from its own battlefield edge.</characteristic>
                   </characteristics>
                 </profile>
+                <profile name="Feral fury" typeId="fe63-c171-b59c-9d89" typeName="Special Rules" hidden="false" id="1b65-dbff-e436-6317" publicationId="eb00-ca64-abe2-a1d4">
+                  <characteristics>
+                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">Whenever they make a Fight Roll, all Space Wolves Infantry, Cavalry and Walker models can re-roll a single roll of 1, when making Fight rolls.</characteristic>
+                  </characteristics>
+                </profile>
               </profiles>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Thousand Sons" hidden="false" id="a63d-151a-ddaf-7270">
               <profiles>
-                <profile name="Kine Shields" typeId="fe63-c171-b59c-9d89" typeName="Special Rules" hidden="false" id="5390-5696-25f4-64ea">
+                <profile name="Brotherhood of sorcerers" typeId="fe63-c171-b59c-9d89" typeName="Special Rules" hidden="false" id="5390-5696-25f4-64ea" publicationId="eb00-ca64-abe2-a1d4">
                   <characteristics>
-                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">Thousand Sons models with the Commander special rule gain the Shield Generator (6&quot;, 6+) special rule.</characteristic>
+                    <characteristic name="Description" typeId="ec59-2e55-c763-6e6a">At the beginning of a battle round, choose one of the rules below for every Thousand Sons detachment containing a model with Commander special rule. The detachments gain the chosen rule until the beginning of the next battle round.
+
+
+1) Kine Shields: Thousand Sons models with the Commander special rule gain the Shield Generator (4”, 5+) special rule.
+2) Smite: A models with the Commander special rule gains a weapon with a profile:
+8” 1 4+ -1, Psi
+
+
+
+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
