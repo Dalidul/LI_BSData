@@ -161,11 +161,11 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da32-3f3b-8d80-dc5a"/>
           </constraints>
           <profiles>
-            <profile name="Leviathan storm cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="45bb-fb78-a0a9-ea44">
+            <profile name="Leviathan storm cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="45bb-fb78-a0a9-ea44" publicationId="eb00-ca64-abe2-a1d4">
               <characteristics>
                 <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">10&quot;</characteristic>
                 <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+                <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
                 <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
                 <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT, Rapid Fire</characteristic>
               </characteristics>
@@ -3003,11 +3003,11 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a8ed-5004-2932-2911"/>
                   </constraints>
                   <profiles>
-                    <profile name="Hellfire plasma cannonade" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e3b3-1202-39d9-b9ab">
+                    <profile name="Hellfire plasma cannonade" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e3b3-1202-39d9-b9ab" publicationId="eb00-ca64-abe2-a1d4">
                       <characteristics>
                         <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
+                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
                         <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
                         <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
                       </characteristics>
@@ -3499,13 +3499,13 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3328-8fdc-4242-45c1"/>
                       </constraints>
                       <profiles>
-                        <profile name="Kheres assault cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8ed0-292e-b5cd-5edb">
+                        <profile name="Kheres assault cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8ed0-292e-b5cd-5edb" publicationId="eb00-ca64-abe2-a1d4">
                           <characteristics>
                             <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">10&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
                             <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
                             <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT, Rapid Fire</characteristic>
+                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Rapid Fire</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
