@@ -1067,109 +1067,8 @@
     <selectionEntry type="unit" import="true" name="Legion Predator Commander" hidden="false" id="7195-e990-7a20-16f4">
       <categoryLinks>
         <categoryLink name="Vehicle (2)" hidden="false" id="1a1c-3f95-65a3-e9c8" targetId="49b3-dae7-33f8-f8e" primary="false"/>
-        <categoryLink name="Battle Tank" hidden="false" id="bbaa-bef6-8fc5-9ba5" targetId="4e02-d7ec-4d81-d5fa" primary="true"/>
+        <categoryLink targetId="7d0c-e5ec-a086-98a4" id="ad86-8c22-55d3-acbe" primary="false" name="Legiones Astartes"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Predator Commander" hidden="false" id="1a78-2eaf-23bf-7e66">
-          <costs>
-            <cost name="‏‏‎‏points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
-            <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
-            <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
-          </costs>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d335-d755-e98a-2253" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b41e-33b3-498d-e471" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Predator Commander" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="ad1d-d61e-f01d-da7c">
-              <characteristics>
-                <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">9&quot;</characteristic>
-                <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">3+</characteristic>
-                <characteristic name="CAF" typeId="b9d2-6ffb-17a1-757f">+3</characteristic>
-                <characteristic name="Morale" typeId="8485-4ee2-6feb-d93c">2+</characteristic>
-                <characteristic name="W" typeId="b00f-3f1c-eb63-461a">1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Weapons" id="ea9c-9656-34b2-f589" hidden="false">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Sponsons" id="0f81-984f-ee68-a0d8" hidden="false">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Sponson Mounted heavy bolters" hidden="false" id="e19a-9fe3-2574-161c">
-                      <profiles>
-                        <profile name="Sponson Mounted heavy bolters" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="9126-051b-8e77-5061">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Light, Point Defence</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Point Defence" id="7d71-9d0c-e584-ddab" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
-                        <infoLink name="Arc (Front/Rear)" id="46e3-7443-c428-c9d4" hidden="false" type="rule" targetId="c48c-8f45-e290-9940"/>
-                        <infoLink name="Light" id="de5f-4cbe-638c-1332" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
-                      </infoLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Sponson Mounted lascannon" hidden="false" id="fcb2-98cd-b27a-655a">
-                      <profiles>
-                        <profile name="Sponson Mounted lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="9fc2-64c0-db39-0afc">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Anti-tank</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Arc (Front/Rear)" id="56f7-026b-a642-0d67" hidden="false" type="rule" targetId="c48c-8f45-e290-9940"/>
-                        <infoLink name="Anti-tank" id="cde1-4766-2d91-1e8a" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bc6f-7c81-e97e-4389" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d94e-d885-23a4-c9fb" includeChildSelections="false"/>
-                  </constraints>
-                </selectionEntryGroup>
-                <selectionEntryGroup name="Turret" id="236e-42d8-e1d9-1077" hidden="false">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Predator lascannon" hidden="false" id="c285-7ddb-882b-b043">
-                      <profiles>
-                        <profile name="Predator lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="761d-5045-2ada-bbc4">
-                          <characteristics>
-                            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
-                            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Anti-tank</characteristic>
-                          </characteristics>
-                        </profile>
-                      </profiles>
-                      <infoLinks>
-                        <infoLink name="Anti-tank" id="eae6-fd4e-4ecb-4d9b" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
-                        <infoLink name="Accurate" id="629e-36cb-f037-cbff" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
-                      </infoLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a80-d0c0-1035-c58f" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb8f-cc7b-ca35-81ce" includeChildSelections="false"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink import="true" name="Predator cannon" hidden="false" id="7eba-c3ff-b114-66e5" type="selectionEntry" targetId="8177-4956-e220-443d"/>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="‏‏‎‏points" typeId="ee95-a20e-f9ff-e2c2" value="60"/>
         <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
@@ -1189,6 +1088,31 @@
         </infoLink>
         <infoLink name="Commander" id="8223-7fc7-2bd3-101c" hidden="false" type="rule" targetId="caaf-3de0-3658-9054"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Legion Predator" hidden="false" id="3916-e04a-00bc-78ad" type="selectionEntry" targetId="91d5-5365-86f3-0269">
+          <modifiers>
+            <modifier type="set" value="+3" field="b9d2-6ffb-17a1-757f" affects="profiles.Detachment"/>
+            <modifier type="set" value="2+" field="8485-4ee2-6feb-d93c" affects="profiles.Detachment"/>
+            <modifier type="set" value="Predator Commander" field="name" affects="profiles.Detachment"/>
+          </modifiers>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf07-308a-6352-9926-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf07-308a-6352-9926-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <modifiers>
+        <modifier type="add" value="124c-2927-143f-f513" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="288d-7913-984c-5d0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="49dd-d763-6836-b4f8" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Legion Sicaran Commander" hidden="false" id="128a-f1de-0a00-d903">
       <selectionEntries>
@@ -1393,6 +1317,18 @@
           </modifiers>
         </entryLink>
       </entryLinks>
+      <modifiers>
+        <modifier type="add" value="124c-2927-143f-f513" field="category">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="288d-7913-984c-5d0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="notInstanceOf" value="1" field="selections" scope="force" childId="49dd-d763-6836-b4f8" shared="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Missile Launcher Heavy Support Legionaries" hidden="false" id="cc35-aa7d-2cd9-2a77" collective="true" publicationId="eb00-ca64-abe2-a1d4">
       <selectionEntries>
@@ -1447,22 +1383,6 @@
         <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
         <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
       </costs>
-    </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Predator cannon" hidden="false" id="8177-4956-e220-443d" publicationId="eb00-ca64-abe2-a1d4">
-      <profiles>
-        <profile name="Predator cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e3a2-be3a-0ed3-9266" publicationId="eb00-ca64-abe2-a1d4">
-          <characteristics>
-            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">18&quot;</characteristic>
-            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
-            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
-            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Light AT" id="27cf-484f-f2f5-bf47" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Omega plasma array" hidden="false" id="82a3-6a1d-611d-2646" publicationId="eb00-ca64-abe2-a1d4">
       <profiles>
@@ -1700,6 +1620,114 @@
           </constraints>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Legion Predator" hidden="false" id="91d5-5365-86f3-0269">
+      <costs>
+        <cost name="‏‏‎‏points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
+        <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
+        <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
+      </costs>
+      <profiles>
+        <profile name="Legion Predator" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="9976-7cf5-e594-f7ae">
+          <characteristics>
+            <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">9&quot;</characteristic>
+            <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">3+</characteristic>
+            <characteristic name="CAF" typeId="b9d2-6ffb-17a1-757f">+2</characteristic>
+            <characteristic name="Morale" typeId="8485-4ee2-6feb-d93c">3+</characteristic>
+            <characteristic name="W" typeId="b00f-3f1c-eb63-461a">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="5573-0404-92d6-9d12" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Sponsons" id="199d-2c75-95a1-86c4" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Sponson Mounted heavy bolters" hidden="false" id="95ec-581e-7ac7-4f05">
+                  <profiles>
+                    <profile name="Sponson Mounted heavy bolters" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="c465-98ac-33c1-5fbe">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Light, Point Defence</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Point Defence" id="0190-160c-2c45-700f" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
+                    <infoLink name="Arc (Front/Rear)" id="cc04-0d26-ae71-ce99" hidden="false" type="rule" targetId="c48c-8f45-e290-9940"/>
+                    <infoLink name="Light" id="8f6f-1d3e-a601-8273" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Sponson Mounted lascannon" hidden="false" id="b3dd-3488-14de-0405">
+                  <profiles>
+                    <profile name="Sponson Mounted lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="02e4-299c-6c46-d1be">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
+                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Anti-tank</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Arc (Front/Rear)" id="21ca-ebe3-8f18-5acf" hidden="false" type="rule" targetId="c48c-8f45-e290-9940"/>
+                    <infoLink name="Anti-tank" id="68d7-b223-f574-bd51" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5377-e850-a659-6cb0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa12-2e02-b730-9dc2" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Turret" id="1877-27b6-6ec5-8039" hidden="false">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Predator lascannon" hidden="false" id="ada0-9f44-41d6-090b">
+                  <profiles>
+                    <profile name="Predator lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="2f5d-46ea-03a9-06ec">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
+                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Anti-tank</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Anti-tank" id="b0db-6e24-0519-60fe" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+                    <infoLink name="Accurate" id="9fd3-5463-7553-eea7" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="false" name="Predator cannon" hidden="false" id="926f-d99b-12c4-5355" publicationId="eb00-ca64-abe2-a1d4">
+                  <profiles>
+                    <profile name="Predator cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="63ff-9526-7693-5b0c" publicationId="eb00-ca64-abe2-a1d4">
+                      <characteristics>
+                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">18&quot;</characteristic>
+                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
+                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Light AT" id="781f-15d9-f6eb-0c33" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f332-c365-d809-3898" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e48a-0e79-54e9-14ac" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <forceEntries>
@@ -4603,106 +4631,6 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
         <categoryLink targetId="7d0c-e5ec-a086-98a4" id="f5f7-4079-9e2c-d7a6" primary="false" name="Legiones Astartes"/>
         <categoryLink targetId="49b3-dae7-33f8-f8e" id="a749-8fa7-1a53-d5e6" primary="false" name="Vehicle (2)"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Legion Predator" hidden="false" id="fdd2-1ff3-d0ef-e94" defaultAmount="1,1,1">
-          <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="759d-7f12-84b7-890c"/>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="ec8f-db31-2672-833b"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink targetId="49b3-dae7-33f8-f8e" id="b2b3-e725-9cd1-33b0" primary="false" name="Vehicle (2)"/>
-          </categoryLinks>
-          <profiles>
-            <profile name="Legion Predator" typeId="6c4e-cc0f-8b44-d1ab" typeName="Detachment" hidden="false" id="e127-69f5-9ccd-bf13">
-              <characteristics>
-                <characteristic name="Move" typeId="77ae-ddcc-f55a-7441">9&quot;</characteristic>
-                <characteristic name="Sv" typeId="ddb1-4f55-6b17-7bc8">3+</characteristic>
-                <characteristic name="CAF" typeId="b9d2-6ffb-17a1-757f">+2</characteristic>
-                <characteristic name="Morale" typeId="8485-4ee2-6feb-d93c">3+</characteristic>
-                <characteristic name="W" typeId="b00f-3f1c-eb63-461a">1</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Turret weapons" hidden="false" id="caf1-3ae6-9910-b50">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Predator lascannon" hidden="false" id="9e3f-9ead-c520-5b8e">
-                  <profiles>
-                    <profile name="Predator lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="719f-37ec-40db-7746">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Anti-tank</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Accurate" hidden="false" type="rule" id="7811-1a10-4828-c535" targetId="dc55-9f84-39e1-1e1e"/>
-                    <infoLink name="Anti-tank" hidden="false" type="rule" id="2825-5d40-8855-641b" targetId="5656-4a72-5de3-87ce"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a73e-a9ea-f2c7-db0e"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="55f9-47bb-9100-7fb9"/>
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Predator cannon" hidden="false" id="13d2-3071-cb8d-9dd1" type="selectionEntry" targetId="8177-4956-e220-443d"/>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup name="Sponson weapons" hidden="false" id="715c-d6b4-147c-9b5a">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Sponson Mounted lascannon" hidden="false" id="b0a0-11a9-8509-4185">
-                  <profiles>
-                    <profile name="Sponson Mounted lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="4672-9f85-1614-d9a">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank, Arc (Front)</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Arc (Front/Rear)" hidden="false" type="rule" id="847f-f2ec-2c9-1229" targetId="c48c-8f45-e290-9940"/>
-                    <infoLink name="Anti-tank" hidden="false" type="rule" id="f26d-c414-a5bb-d819" targetId="5656-4a72-5de3-87ce"/>
-                  </infoLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Sponson Mounted heavy bolters" hidden="false" id="ec64-625d-d7c1-e37a">
-                  <profiles>
-                    <profile name="Sponson Mounted heavy bolters" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="ca4c-e911-1ffd-e94b">
-                      <characteristics>
-                        <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
-                        <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
-                        <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Light, Point Defence</characteristic>
-                      </characteristics>
-                    </profile>
-                  </profiles>
-                  <infoLinks>
-                    <infoLink name="Point Defence" hidden="false" type="rule" id="8fb1-e4ee-c6cd-a3ce" targetId="f921-10ce-33f7-19fd"/>
-                    <infoLink name="Light" hidden="false" type="rule" id="a5e9-26ef-33f0-3767" targetId="4f6f-3184-9172-ef3f"/>
-                    <infoLink name="Arc (Front/Rear)" hidden="false" type="rule" id="3be1-ace1-522c-492f" targetId="c48c-8f45-e290-9940"/>
-                  </infoLinks>
-                </selectionEntry>
-              </selectionEntries>
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2033-f543-2ad1-bb69"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f75-59ca-a096-3c36"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="‏‏‎‏points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
-            <cost name="‏‏‎Transport Usage" typeId="54cb-1324-71d0-d324" value="0"/>
-            <cost name="Break Point" typeId="5312-855-beda-23c1" value="0.5"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="115"/>
       </costs>
@@ -4748,6 +4676,14 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
           </conditionGroups>
         </modifier>
       </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Legion Predator" hidden="false" id="0a5b-643d-09fd-a499" type="selectionEntry" targetId="91d5-5365-86f3-0269">
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="6cce-2789-bc4c-c2aa"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="7a27-3c91-ac3b-162b"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Legion Rapier Battery Detachment" hidden="false" id="2f76-7819-c75c-926c">
       <categoryLinks>
@@ -11085,14 +11021,15 @@ Knights, Titans and models with a Morale characteristic of &quot;-&quot; are una
         <infoLink name="Line" id="0c45-d06a-af89-c154" hidden="false" type="rule" targetId="3da1-56dc-4df5-41c4"/>
       </infoLinks>
     </entryLink>
-    <entryLink import="true" name="Legion Predator Commander" hidden="false" id="d93b-9a9b-3b92-21b8" type="selectionEntry" targetId="7195-e990-7a20-16f4"/>
+    <entryLink import="true" name="Legion Predator Commander" hidden="false" id="d93b-9a9b-3b92-21b8" type="selectionEntry" targetId="7195-e990-7a20-16f4">
+      <categoryLinks>
+        <categoryLink targetId="d950-ad23-9b2-9325" id="809d-bfb9-a26c-5588" primary="true" name="HQ"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink import="true" name="Legion Predator Commander" hidden="false" id="9712-c70f-b1be-6072" type="selectionEntry" targetId="7195-e990-7a20-16f4">
       <categoryLinks>
-        <categoryLink name="HQ" hidden="false" id="fbcf-0147-5b38-a0b3" targetId="d950-ad23-9b2-9325" primary="true"/>
+        <categoryLink targetId="4e02-d7ec-4d81-d5fa" id="4ac6-3c2c-b30c-bf28" primary="true" name="Battle Tank"/>
       </categoryLinks>
-      <modifiers>
-        <modifier type="remove" value="4e02-d7ec-4d81-d5fa" field="category"/>
-      </modifiers>
     </entryLink>
     <entryLink import="true" name="Legion Sicaran Commander" hidden="false" id="17ae-3d38-fb8b-e32e" type="selectionEntry" targetId="128a-f1de-0a00-d903">
       <categoryLinks>
