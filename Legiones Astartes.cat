@@ -219,7 +219,7 @@
                 <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
                 <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
                 <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
-                <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Light, Point Defence, Skyfire</characteristic>
+                <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Arc (Front), Light, Point Defence</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -227,7 +227,6 @@
             <infoLink name="Light" hidden="false" type="rule" id="afd8-73e2-4c2a-1939" targetId="4f6f-3184-9172-ef3f"/>
             <infoLink name="Arc (Front/Rear)" hidden="false" type="rule" id="e896-e10a-a00b-dafe" targetId="c48c-8f45-e290-9940"/>
             <infoLink name="Point Defence" hidden="false" type="rule" id="f761-c7f-ee73-78de" targetId="f921-10ce-33f7-19fd"/>
-            <infoLink name="Skyfire" hidden="false" type="rule" id="38b9-f771-9c01-eb49" targetId="e93f-b83c-b1c9-d744"/>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Vengeance launcher" hidden="false" id="3355-e27c-b9e8-ae40" collective="true">
@@ -251,13 +250,13 @@
             <infoLink name="Arc (Front/Rear)" hidden="false" type="rule" id="aaa6-41d9-5a49-2774" targetId="c48c-8f45-e290-9940"/>
           </infoLinks>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Wing Mounted lascannon" hidden="false" id="5c1f-2480-2561-fb03" collective="true">
+        <selectionEntry type="upgrade" import="true" name="Wing Mounted lascannons" hidden="false" id="5c1f-2480-2561-fb03" collective="true">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d823-c9ca-6cd7-82c2"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb1c-e098-a218-7ae6"/>
           </constraints>
           <profiles>
-            <profile name="Wing Mounted lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="4036-edbf-daf0-5b47">
+            <profile name="Wing Mounted lascannons" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="4036-edbf-daf0-5b47">
               <characteristics>
                 <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
                 <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
@@ -3566,13 +3565,12 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                         <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
                         <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
                         <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank, Skyfire</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Anti-tank" hidden="false" type="rule" id="2a7e-1be3-d10d-3d38" targetId="5656-4a72-5de3-87ce"/>
-                    <infoLink name="Skyfire" hidden="false" type="rule" id="4235-10b1-fb9c-a411" targetId="e93f-b83c-b1c9-d744"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Gravis autocannon batteries" hidden="false" id="f98c-4fa6-1d1f-2647" collective="false">
@@ -3580,16 +3578,15 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                     <profile name="Gravis autocannon batteries" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e192-e224-479d-1c7d">
                       <characteristics>
                         <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">16&quot;</characteristic>
-                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">3</characteristic>
+                        <characteristic name="Dice" typeId="e416-76d6-5762-ed21">4</characteristic>
                         <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
                         <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT, Skyfire</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Light AT" hidden="false" type="rule" id="c173-d973-49ee-8ec8" targetId="c731-70f4-ffcd-4ff7"/>
-                    <infoLink name="Skyfire" hidden="false" type="rule" id="87fd-455-9ef3-b6ce" targetId="e93f-b83c-b1c9-d744"/>
                   </infoLinks>
                   <costs>
                     <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="0"/>
@@ -3604,14 +3601,13 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
                         <characteristic name="Dice" typeId="e416-76d6-5762-ed21">4</characteristic>
                         <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
                         <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
-                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Point Defence, Skyfire</characteristic>
+                        <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Point Defence</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Light" hidden="false" type="rule" id="231a-61c9-dbc4-d03a" targetId="4f6f-3184-9172-ef3f"/>
                     <infoLink name="Point Defence" hidden="false" type="rule" id="2342-c5b4-bc78-7b30" targetId="f921-10ce-33f7-19fd"/>
-                    <infoLink name="Skyfire" hidden="false" type="rule" id="ecab-c330-d233-437b" targetId="e93f-b83c-b1c9-d744"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -3629,12 +3625,12 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
         </selectionEntry>
       </selectionEntries>
       <modifiers>
-        <modifier type="increment" value="100" field="ee95-a20e-f9ff-e2c2">
+        <modifier type="set" value="190" field="ee95-a20e-f9ff-e2c2">
           <conditions>
             <condition type="atLeast" value="2" field="selections" scope="self" childId="model" shared="true" includeChildSelections="false"/>
           </conditions>
         </modifier>
-        <modifier type="increment" value="90" field="ee95-a20e-f9ff-e2c2">
+        <modifier type="set" value="275" field="ee95-a20e-f9ff-e2c2">
           <conditions>
             <condition type="atLeast" value="3" field="selections" scope="self" childId="model" shared="true" includeChildSelections="false"/>
           </conditions>
@@ -3651,7 +3647,9 @@ Detachments from the Mechanicum Taghmata Army List in this Support Formation do 
         </modifier>
       </modifiers>
       <costs>
-        <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="100"/>
+        <cost name="‏‏‎ points" typeId="ee95-a20e-f9ff-e2c2" value="95"/>
+        <cost name="‏‏‎Transport" typeId="54cb-1324-71d0-d324" value="0"/>
+        <cost name="Break Point" typeId="5312-855-beda-23c1" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Legion Dreadnought Talon" hidden="false" id="54ab-4c5e-2a18-3b49">
