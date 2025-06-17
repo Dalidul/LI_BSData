@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="7f36-bebc-5fd3-6485" name="Basic Weapons - Library" gameSystemId="sys-9498-516a-178a-3f4f" gameSystemRevision="29" revision="1" battleScribeVersion="2.03" publicationId="eb00-ca64-abe2-a1d4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Quad heavy bolter" hidden="false" id="4be9-6371-9e2e-0cef">
+      <profiles>
+        <profile name="Quad heavy bolter" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="69a6-2bee-5fe0-f419">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">4</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Point Defence</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="b428-4e2e-cd68-440b" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Point Defence" id="2f71-7dca-e5eb-5523" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked autocannon" hidden="false" id="0100-3855-7a92-6e50">
+      <profiles>
+        <profile name="Twin-linked autocannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="3751-63b7-a8fb-8eba">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">16&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Accurate" id="e03a-c7af-1b1a-8512" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+        <infoLink name="Light AT" id="71f1-612a-01c3-6ebe" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Quad launcher" hidden="false" id="cb80-f032-fbfb-d652">
+      <profiles>
+        <profile name="Quad launcher - Frag" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8483-ff08-4a17-7749">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6-30&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Barrage, Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Quad launcher - Shatter" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e65b-ef07-d7d9-214d">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">16&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Demolisher, Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="9f36-28ee-be11-56bc" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+        <infoLink name="Demolisher (X)" id="068b-aa39-f1bc-298a" hidden="false" type="rule" targetId="788-9d12-3358-b236"/>
+        <infoLink name="Barrage" id="9638-739e-9e55-96b7" hidden="false" type="rule" targetId="862d-b036-2018-dbaf"/>
+        <infoLink name="Light" id="4464-520c-c61b-0d4b" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked lascannon" hidden="false" id="e256-b4f5-e34b-26dd">
+      <profiles>
+        <profile name="Twin-linked lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8fb7-dcf7-6dc0-4899">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-tank" id="6101-efda-460d-49ee" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+        <infoLink name="Accurate" id="ec48-0163-e976-1aa4" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked meltagun" hidden="false" id="59d8-93b8-cf26-30c9">
+      <profiles>
+        <profile name="Twin-linked meltagun" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="edf5-3de4-c309-ef63">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-tank" id="718b-78ad-a3ca-a691" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+        <infoLink name="Accurate" id="2cb6-0958-b8ba-d24c" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked heavy bolter" hidden="false" id="9725-df6e-995b-32ff">
+      <profiles>
+        <profile name="Twin-linked heavy bolter" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="3f18-c7ed-7278-96bf">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Point Defence</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="8e7f-0510-84a1-2ac5" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Point Defence" id="580f-7c41-0722-3d80" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Demolisher cannon" hidden="false" id="a01c-164d-9ecd-76b6">
+      <profiles>
+        <profile name="Demolisher cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="b2fe-58a7-edca-f8e5">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-3</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Demolisher, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Demolisher (X)" id="d1aa-030e-10b6-5e21" hidden="false" type="rule" targetId="788-9d12-3358-b236"/>
+        <infoLink name="Ignores Cover" id="2432-557e-e7a9-f987" hidden="false" type="rule" targetId="bff7-b88a-2145-2c63"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Meltagun" hidden="false" id="462f-9cb0-da69-39c8">
+      <profiles>
+        <profile name="Meltagun" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="ca15-04e1-51a9-e178">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-tank" id="bee3-1df3-2d43-6d2d" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked volkite caliver" hidden="false" id="6f29-ba87-aa28-5ebd">
+      <profiles>
+        <profile name="Twin-linked volkite caliver" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8852-ba68-83a7-b40c">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Deflagrate, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="a800-f415-8ded-f21d" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Deflagrate" id="5524-20aa-ba7f-2ad4" hidden="false" type="rule" targetId="711e-2910-b797-71a8"/>
+        <infoLink name="Accurate" id="22ab-b637-71ba-2cee" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Multi-melta" hidden="false" id="f884-7b58-caf7-5e61">
+      <profiles>
+        <profile name="Multi-melta" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="82f4-3dbd-591d-5d90">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-3</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-tank" id="1a29-56bd-81a5-a886" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma gun" hidden="false" id="ef31-5479-b217-fd19">
+      <profiles>
+        <profile name="Plasma gun" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="851c-f94a-6e87-d276">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">10&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="9d72-9bda-68a4-254c" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy bolter" hidden="false" id="b927-ebb7-2dbd-3cca">
+      <profiles>
+        <profile name="Heavy bolter" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="c3f3-61eb-6f3a-1ae3">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Point Defence</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="6bfd-0c94-48b1-674b" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Point Defence" id="dc1f-1b98-6dd2-5fbc" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Multi-laser" hidden="false" id="109d-3256-402f-d406">
+      <profiles>
+        <profile name="Multi-laser" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="aa15-0a7d-b343-d681">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="1bf5-877b-3b23-0687" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy flamer" hidden="false" id="5a22-e989-e07c-3aec">
+      <profiles>
+        <profile name="Heavy flamer" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="5899-7c26-3709-2b85">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Ignore Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="25d0-4312-77c9-f531" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Ignores Cover" id="dc7a-7362-5093-3191" hidden="false" type="rule" targetId="bff7-b88a-2145-2c63"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Plasma cannon" hidden="false" id="3831-27ce-66b8-40fd">
+      <profiles>
+        <profile name="Plasma cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="12d0-ead8-a773-dd4f">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="c128-097b-cd91-f67e" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite culverin" hidden="false" id="5a86-94b2-1705-bf0d">
+      <profiles>
+        <profile name="Volkite culverin" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="5100-a47c-010c-8891">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Deflagrate, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="aff3-9e2d-7929-27fb" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Deflagrate" id="06be-f4f8-334b-608e" hidden="false" type="rule" targetId="711e-2910-b797-71a8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="6ca6-39a0-1e6d-9622">
+      <profiles>
+        <profile name="Flamer" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="6cd4-d79a-0e51-1fc1">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Ignore Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="14bf-46e0-af98-85e6" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Ignores Cover" id="6387-aa76-5d2d-22c6" hidden="false" type="rule" targetId="bff7-b88a-2145-2c63"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Avenger bolt cannon" hidden="false" id="0f9f-6755-70fe-d8a9">
+      <profiles>
+        <profile name="Avenger bolt cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="ad94-59dc-3e58-596c">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">16&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">5</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT, Rapid Fire, Skyfire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="39c3-2f84-5890-c800" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+        <infoLink name="Rapid Fire" id="1348-edf7-0e0d-da31" hidden="false" type="rule" targetId="d56d-6332-debe-ab1a"/>
+        <infoLink name="Skyfire" id="3600-ecb8-76b4-bb1e" hidden="false" type="rule" targetId="e93f-b83c-b1c9-d744"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hand flamer" hidden="false" id="1cea-62b2-a185-feee">
+      <profiles>
+        <profile name="Hand flamer" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="2877-fc32-306f-5710">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Ignore Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="63fa-3ba6-7bcb-2743" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Ignores Cover" id="425b-46aa-7d07-aa5c" hidden="false" type="rule" targetId="bff7-b88a-2145-2c63"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Twin-linked bolter" hidden="false" id="bdf9-679a-2840-220b">
+      <profiles>
+        <profile name="Twin-linked bolter" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8d38-269c-d174-df21">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">8&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Assault, Light, Point Defence</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="9abd-3018-c49f-86a8" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Assault" id="6b58-acb6-2e0d-8e54" hidden="false" type="rule" targetId="e368-00fb-7a9b-9eb0"/>
+        <infoLink name="Point Defence" id="f5c9-8a3d-6bed-615d" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Volkite caliver" hidden="false" id="dc8d-f69e-9628-3c06">
+      <profiles>
+        <profile name="Volkite caliver" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="8287-e461-702d-8c74">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Deflagrate, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="8880-fc2c-926e-1f26" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Deflagrate" id="376b-0071-27fe-1d5f" hidden="false" type="rule" targetId="711e-2910-b797-71a8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy stubber" hidden="false" id="1d84-2b44-eed9-9c66">
+      <profiles>
+        <profile name="Heavy stubber" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="52e5-e0ca-05b3-7090">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">14&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">0</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light, Point Defence</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light" id="0ccc-3a6a-96b7-9901" hidden="false" type="rule" targetId="4f6f-3184-9172-ef3f"/>
+        <infoLink name="Point Defence" id="d132-4d99-9d61-696e" hidden="false" type="rule" targetId="f921-10ce-33f7-19fd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Turbo-laser destructor" hidden="false" id="03fc-4d8d-f2bf-246f">
+      <profiles>
+        <profile name="Turbo-laser destructor" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="ff5a-dd19-a760-4570">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">40&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-3</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Accurate" id="4256-55bc-db27-74d2" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="2cfa-a4de-cfbd-fb84">
+      <profiles>
+        <profile name="Lascannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="e24c-9456-9554-caf3">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">22&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-tank" id="8b28-a978-3a0d-62fa" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Laser destroyer" hidden="false" id="f65b-bcb3-8119-2d70">
+      <profiles>
+        <profile name="Laser destroyer" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="897e-d15d-94b4-0970">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">15&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">4+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-2</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Accurate, Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Anti-tank" id="9cec-8f66-a43b-33f0" hidden="false" type="rule" targetId="5656-4a72-5de3-87ce"/>
+        <infoLink name="Accurate" id="9c49-e136-adb3-51dd" hidden="false" type="rule" targetId="dc55-9f84-39e1-1e1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="854d-bb01-1ab9-081f">
+      <profiles>
+        <profile name="Autocannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="6223-55ef-aa12-48ea">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">16&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">2</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">5+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-1</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Light AT" id="e27e-66de-efeb-3506" hidden="false" type="rule" targetId="c731-70f4-ffcd-4ff7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Belicosa volcano cannon" hidden="false" id="d656-6128-749b-60ab">
+      <profiles>
+        <profile name="Belicosa volcano cannon" typeId="ac1f-57b2-e1a8-3b2a" typeName="Weapon" hidden="false" id="2855-d923-3671-4037">
+          <characteristics>
+            <characteristic name="Range" typeId="9b59-b345-bfe2-c99b">70&quot;</characteristic>
+            <characteristic name="Dice" typeId="e416-76d6-5762-ed21">1</characteristic>
+            <characteristic name="To Hit" typeId="c441-9eb2-b00a-5c8c">2+</characteristic>
+            <characteristic name="AP" typeId="3932-ca12-de16-c1b7">-5</characteristic>
+            <characteristic name="Traits" typeId="d0f2-61ea-138a-81af">Engine Killer (4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Engine Killer (X)" id="a5cb-0b19-9f93-7aa6" hidden="false" type="rule" targetId="7e4c-2264-79e3-9054"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
